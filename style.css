@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Epilogue", sans-serif;
+}
+
+.navbar {
+  background-color: white;
+  color: black;
+}
+.navbar-brand {
+  font-size: 50px;
+  font-weight: 700;
+}
+.btn-login {
+  background-color: white;
+  border: none;
+  margin: 25px;
+  color: gray;
+}
+.btn-Register {
+  background-color: white;
+  width: 100px;
+  height: 40px;
+  margin: 25px;
+  border-radius: 10px;
+  border-color: gray;
+  color: gray;
+}
+
+.dropdown-menu {
+  border: none;
+}
+.dropdown-item img {
+  margin: 7px 8px 9px -8px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  margin-right: 300px;
+}
+
+.text-container p {
+  font-size: 18px;
+  color: gray;
+}
+.text-container h1 {
+  font-size: 90px;
+  font-weight: 700;
+}
+.text-container button {
+  margin-top: 15px;
+  color: white;
+  background: black;
+  border-radius: 20px;
+  width: 150px;
+  height: 50px;
+}
+
+.watermark {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+picture img {
+  max-width: 90vh;
+  max-height: 90vh;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+/* ...................................hover...................  */
+.text-container button:hover {
+  background: white;
+  color: black;
+}
+.navbar a:hover {
+  color: black;
+  /* font-weight: bold; */
+}
+.btn-login:hover {
+  color: black;
+}
+.btn-Register:hover {
+  color: black;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>media quary<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+@media screen and (max-width: 600px) {
+  main {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+
+  }
+  picture img {
+    max-width: 41vh;
+  }
+  .text {
+    margin: 17px 5px;
+  }
+  .text-container h1 {
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 700;
+  }
+  .text-container p {
+    font-size: 17px;
+    color: gray;
+  }
+  .text-container {
+    text-align: center;
+  }
+  .watermark {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .watermark img {
+    height: 19px;
+    width: 50px;
+    margin: 40px 8px 40px 29px;
+  }
+
+  .text-container button:hover {
+    background: white;
+    color: black;
+  }
+  .navbar a:hover {
+    color: black;
+    /* font-weight: bold; */
+  }
+  .btn-login:hover {
+    color: black;
+  }
+  .btn-Register:hover {
+    color: black;
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
